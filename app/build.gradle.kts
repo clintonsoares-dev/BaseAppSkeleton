@@ -75,6 +75,15 @@ dependencies {
     implementation(libs.activity.ktx)
     implementation(libs.lifecycle.viewmodel)
 
+    // Lifecycle utilities for Compose
+    implementation(libs.androidx.lifecycle.runtime.compose)
+
+    // Livedata runtime utilities for Compose
+    implementation(libs.androidx.runtime.livedata)
+
+    // android compose navigation
+    implementation(libs.androidx.navigation.compose)
+
     // hilt
     implementation(libs.hilt.android)
     ksp(libs.hilt.compiler)
